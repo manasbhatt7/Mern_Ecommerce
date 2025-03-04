@@ -17,6 +17,7 @@ export const getCartProducts = async (req, res) => {
 	}
 };
 
+
 export const addToCart = async (req, res) => {
 	try {
 		const { productId } = req.body;
