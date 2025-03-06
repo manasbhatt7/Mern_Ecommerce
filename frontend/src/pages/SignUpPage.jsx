@@ -19,6 +19,7 @@ const SignUpPage = () => {
 		signup(formData);
 	};
 
+	
 	return (
 		<div className='flex flex-col justify-center py-12 sm:px-6 lg:px-8'>
 			<motion.div
