@@ -13,6 +13,7 @@ const tabs = [
 	{ id: "analytics", label: "Analytics", icon: BarChart },
 ];
 
+
 const AdminPage = () => {
 	const [activeTab, setActiveTab] = useState("create");
 	const { fetchAllProducts } = useProductStore();
