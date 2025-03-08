@@ -8,6 +8,7 @@ import OrderSummary from "../components/OrderSummary";
 import GiftCouponCard from "../components/GiftCouponCard";
 
 const CartPage = () => {
+	
 	const { cart } = useCartStore();
 
 	return (
