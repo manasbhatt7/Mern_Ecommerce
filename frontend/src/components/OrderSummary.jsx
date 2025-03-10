@@ -8,6 +8,7 @@ import axios from "../lib/axios";
 const stripePromise = loadStripe(
 	"pk_test_51QyXtJBf33HFhf08Jl8QplPGVDPe6gIrIFe8hBKUv09gLZJ09rudwgoIRAVvKm7EDZPLu27m1DDbhApzimdxXWAx00QURshcHn"
 );
+
 // pk_test_51KZYccCoOZF2UhtOwdXQl3vcizup20zqKqT9hVUIsVzsdBrhqbUI2fE0ZdEVLdZfeHjeyFXtqaNsyCJCmZWnjNZa00PzMAjlcL
 const OrderSummary = () => {
 	const { total, subtotal, coupon, isCouponApplied, cart } = useCartStore();
