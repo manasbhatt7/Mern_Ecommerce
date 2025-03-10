@@ -6,6 +6,7 @@ import axios from "../lib/axios";
 import Confetti from "react-confetti";
 
 const PurchaseSuccessPage = () => {
+	
 	const [isProcessing, setIsProcessing] = useState(true);
 	const { clearCart } = useCartStore();
 	const [error, setError] = useState(null);
