@@ -14,6 +14,7 @@ const AnalyticsTab = () => {
 	const [isLoading, setIsLoading] = useState(true);
 	const [dailySalesData, setDailySalesData] = useState([]);
 
+	
 	useEffect(() => {
 		const fetchAnalyticsData = async () => {
 			try {
